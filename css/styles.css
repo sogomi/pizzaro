@@ -18,7 +18,7 @@ nav a:hover{
 }
 h1{
     text-align: center;
-    color: brown;
+    color: black;
 }
 .about{
     text-align: center;
@@ -36,10 +36,11 @@ h1{
     margin: 1.5%;
 }
 .contact{
+    background-image: url(../img/tomato.jpg);
     background-size: cover;
     background-position: cover;
     text-align: center;
     color: white;
     padding-top: 40px;
 }
-
+  

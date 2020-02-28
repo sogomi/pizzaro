@@ -85,37 +85,14 @@
     </div>
     </div>
 
-<label for="sizes">Choose Size:</label>
-<select id="toppings">
-  <option value=""></option>
-  <option value="extra large">Extra Large</option>
-  <option value="large">Large</option>
-  <option value="medium">Medium</option>
-  <option value="small">Small</option>
-  </select>
-
-<label for="crust">Choose Crust:</label>
-<select id="toppings">
-  <option value=""></option>
-  <option value="thin crust">Thin Crust</option>
-  <option value="thick crust">Thick Crust</option>
-  <option value="deep crust">Deep Crust</option>
-  <option value="cheese filled crust">Cheese Filled Crust</option>
-  <option value="stuffed crust">Stuffed Crust</option>
-  </select>
-
-<label for="toppings">Choose Topping:</label>
-<select id="toppings">
-  <option value=""></option>
-  <option value="Pepperoni">Pepperoni</option>
-  <option value="mushrooms">Mushrooms</option>
-  <option value="onions">Onions</option>
-  <option value="sausage">Sausage</option>
-  <option value="bacon">Bacon</option>
-  <option value="extra cheese">Extra cheese</option>
-  <option value="black olives">Black olives</option>
-  <option value="green peppers">Green peppers</option>
-</select>
+<div class="select">
+  <button class="selectbtn">Select Size</button>
+  <div class="select-content">
+    <a href="#">Large</a>
+    <a href="#">Medium</a>
+    <a href="#">Small</a>
+  </div>
+</div>
 
      <div class="contact">
         <h1><strong>CONTACT US</strong></h1>
@@ -129,6 +106,7 @@
         </form>
     </div>
     </div>
+
 
     <script   src="https://code.jquery.com/jquery-3.3.1.min.js"   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="   crossorigin="anonymous"></script>
     <script src="js/scripts.js"></script>

@@ -4,7 +4,7 @@ $(".card").hover(function(){
 $(document).ready(function(sogomi){
     $("button").click(function(){
         var client=document.getElementById("name").value;
-        alert(client + " " + "Thank you, for contacting us.")
+        alert(client + " " + "Thank you, for contacting")
         sogomi.preventDefault
     })
 })

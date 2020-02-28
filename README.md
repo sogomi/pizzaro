@@ -25,4 +25,4 @@ Pizzaro is an online webpage where one can order for pizza at the place of  thei
 # Support and Contact Details
 For more inquiries and information contact me on my email:sogomib@gmail.com
 # Licence
-MIT Licence Copyright (C) [2020] [Pizzaro]
+MIT Licence Copyright (C) [2020] [Pizzar]
