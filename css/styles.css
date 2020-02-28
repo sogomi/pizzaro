@@ -1,0 +1,21 @@
+nav {
+    display: inline-block;
+    background-color: aqua;
+    background-attachment: fixed;
+    position: fixed;
+    width: 100%;
+    text-align: right;
+}
+nav li{
+    display: inline-block;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+nav a:hover{
+    color: bisque;
+}
+h1{
+    text-align: center;
+}
