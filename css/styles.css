@@ -1,6 +1,6 @@
 nav {
     display: inline-block;
-    background-color: aqua;
+    background-color: rgb(199, 43, 43);
     background-attachment: fixed;
     position: fixed;
     width: 100%;
@@ -18,11 +18,20 @@ nav a:hover{
 }
 h1{
     text-align: center;
+    color: brown;
 }
 .about{
     text-align: center;
 }
-
 #home {
     text-align: center;
+}
+.type1 {
+    text-align: center; 
+    margin: 1.5px;
+    padding-top: 40px;
+}
+.type2 {
+    text-align: center;
+    margin: 1.5%;
 }
