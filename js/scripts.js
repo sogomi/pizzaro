@@ -1,5 +1,5 @@
 $(".card").hover(function(){
-    $(this).children(".two").fadeToggle("fast", "linear");
+    $(this).children(".two").show("fast", "linear");
 });
 $(document).ready(function(sogomi){
     $("button").click(function(){
