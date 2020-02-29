@@ -1,10 +1,10 @@
 nav {
     display: inline-block;
-    background-color: rgb(199, 43, 43);
+    background-color:lime;
     background-attachment: fixed;
     position: fixed;
     width: 100%;
-    text-align: right;
+    text-align: center;
 }
 nav li{
     display: inline-block;
@@ -12,9 +12,9 @@ nav li{
     margin-right: 30px;
     padding-top: 30px;
     padding-bottom: 30px;
-}
+    }
 nav a:hover{
-    color: bisque;
+    color: white;
 }
 h1{
     text-align: center;
@@ -41,6 +41,12 @@ h1{
     background-position: cover;
     text-align: center;
     color: white;
-    padding-top: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.order {
+    text-align: center;
+    background-image: url(../img/t.jpeg);
+    font-weight: bold;
 }
   
