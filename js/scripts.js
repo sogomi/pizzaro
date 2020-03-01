@@ -8,3 +8,6 @@ $(document).ready(function(sogomi){
         sogomi.preventDefault
     })
 })
+function msg() {
+    
+}
