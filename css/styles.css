@@ -5,14 +5,19 @@ h1{
 }
 .about{
     text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 50px;
+    background-image: url(../img/g.jpeg);
 }
 .home {
     text-align: center;
+
 }
 .type1 {
     text-align: center; 
     margin: 1.5px;
-    padding-top: 40px;
+    padding-top: 30px;
 }
 .type2 {
     text-align: center;
@@ -25,11 +30,20 @@ h1{
     text-align: center;
     color: white;
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 0px;
 }
 .order {
     text-align: center;
     background-image: url(../img/t.jpeg);
     font-weight: bold;
 }
-  
+.call{
+    background-image: url(../img/about.jpg);
+    background-size: cover;
+    background-position: cover;
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 50px;
+}

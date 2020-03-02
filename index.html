@@ -8,8 +8,6 @@
     <title>Pizzaro</title>
   </head>
   <body>
-      
-
       <div class="home">
           <br><br><br><br><br><h1>PIZZARO PIZZA</h1>
           <img src="img/pizzaro.webp" alt="pizzaro" width="1000" height="500">
@@ -71,44 +69,56 @@
         <div class="col-md-3 card">
             <img src="img/Sicilian-pizza.jpg" width="300" height="300">
             <div class="two">
-              <p class="ptag">Sicilian<br>Pizza</p>
+              <p class="ptag">Detroit<br>Pizza</p>
             </div>  
-        </div>
      </div>
     </div>
     </div>
 <div class="order">
     <h1>Place Your Order</h1>
+<label for="type">Choose Pizza:</label>
+<select id="type">
+  <option value=""></option>
+  <option value="greek">Greek Pizza</option>
+  <option value="huwai">Huwai Pizza</option>
+  <option value="detroit">Detroit Pizza</option>
+  <option value="new york">New York Pizza</option>
+  <option value="chicago">Chicago Pizza</option>
+  <option value="sicilian">Sicilian Pizza</option>
+  <option value="naples">Naples Pizza</option>
+  <option value="neapoletan">Neapoletan Pizza</option>
+</select>
+
 <label for="sizes">Choose Size:</label>
 <select id="toppings">
   <option value=""></option>
-  <option value="extra large">Extra Large</option>
-  <option value="large">Large</option>
-  <option value="medium">Medium</option>
-  <option value="small">Small</option>
+  <option value="extra large">Extra Large @1200</option>
+  <option value="large">Large @1000</option>
+  <option value="medium">Medium @800</option>
+  <option value="small">Small @600</option>
   </select>
 
 <label for="crust">Choose Crust:</label>
 <select id="toppings">
   <option value=""></option>
-  <option value="thin crust">Thin Crust</option>
-  <option value="thick crust">Thick Crust</option>
-  <option value="deep crust">Deep Crust</option>
-  <option value="cheese filled crust">Cheese Filled Crust</option>
-  <option value="stuffed crust">Stuffed Crust</option>
+  <option value="thin crust">Thin Crust @300</option>
+  <option value="thick crust">Thick Crust @350</option>
+  <option value="deep crust">Deep Crust @450</option>
+  <option value="cheese filled crust">Cheese Filled Crust @500</option>
+  <option value="stuffed crust">Stuffed Crust @350</option>
   </select>
 
 <label for="toppings">Choose Topping:</label>
 <select id="toppings">
   <option value=""></option>
-  <option value="Pepperoni">Pepperoni</option>
-  <option value="mushrooms">Mushrooms</option>
-  <option value="onions">Onions</option>
-  <option value="sausage">Sausage</option>
-  <option value="bacon">Bacon</option>
-  <option value="extra cheese">Extra cheese</option>
-  <option value="black olives">Black olives</option>
-  <option value="green peppers">Green peppers</option>
+  <option value="Pepperoni">Pepperoni @300</option>
+  <option value="mushrooms">Mushrooms @400</option>
+  <option value="onions">Onions @200</option>
+  <option value="sausage">Sausage @550</option>
+  <option value="bacon">Bacon @600</option>
+  <option value="extra cheese">Extra cheese @300</option>
+  <option value="black olives">Black olives @300</option>
+  <option value="green peppers">Green peppers @400</option>
 </select>
 
 <form>
@@ -120,17 +130,30 @@
 <br><br><br><br>
 
      <div class="contact">
-        <h1><strong>CONTACT US</strong></h1>
+        <h1>Delivery</h1>
         <div class="hola">
         <form>
-            <input type="Text" id="name" placeholder="Name" size="20">
-            <input type="Text" id="email" placeholder="Email"size="40">
+            <input type="Text" id="name" placeholder="Name" size="20"><br> <br>
+            <input type="Text" id="phone" placeholder="Number"size="20"><br> <br>
+            <input type="Text" id="email" placeholder="Email" size="40"><br> <br>
+            <input type="Text" id="address" placeholder="Address"size="40">
             <br> <br>
-            <textarea placeholder="Type your message here"  cols="70" rows="10" ></textarea>
-            <button type="submit">Send</button>
+            <button id="gervi" type="submit">Send</button>
         </form>
     </div>
     </div>
+
+    <div class="call">
+      <h1>CONTACT US</h1>
+      <div class="hola">
+      <form>
+          <input type="Text" id="name" placeholder="Name" size="20"><br> <br>
+          <input type="Text" id="email" placeholder="Email" size="40"><br> <br>
+          <textarea placeholder="Type your message here"  cols="70" rows="10" ></textarea>
+          <button id="javi" type="submit">Send</button>
+      </form>
+  </div> 
+  </div>
 
     <script   src="https://code.jquery.com/jquery-3.3.1.min.js"   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="   crossorigin="anonymous"></script>
     <script src="js/scripts.js"></script>
