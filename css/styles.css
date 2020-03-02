@@ -1,21 +1,4 @@
-nav {
-    display: inline-block;
-    background-color:lime;
-    background-attachment: fixed;
-    position: fixed;
-    width: 100%;
-    text-align: center;
-}
-nav li{
-    display: inline-block;
-    margin-left: 30px;
-    margin-right: 30px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    }
-nav a:hover{
-    color: white;
-}
+
 h1{
     text-align: center;
     color: black;
@@ -23,7 +6,7 @@ h1{
 .about{
     text-align: center;
 }
-#home {
+.home {
     text-align: center;
 }
 .type1 {
