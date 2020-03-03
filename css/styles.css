@@ -1,4 +1,19 @@
-
+nav{
+    background-color: yellowgreen;
+    text-align: center;
+    width: 100%;
+    /* position: fixed; */
+}
+nav li{
+    display: inline-block;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+nav a:hover{
+    color:green;
+}
 h1{
     text-align: center;
     color: black;
@@ -23,15 +38,6 @@ h1{
     text-align: center;
     margin: 1.5%;
 }
-.contact{
-    background-image: url(../img/tomato.jpg);
-    background-size: cover;
-    background-position: cover;
-    text-align: center;
-    color: white;
-    padding-top: 30px;
-    padding-bottom: 0px;
-}
 .order {
     text-align: center;
     background-image: url(../img/t.jpeg);
@@ -45,5 +51,4 @@ h1{
     color: white;
     padding-top: 30px;
     padding-bottom: 30px;
-    margin-top: 50px;
 }
