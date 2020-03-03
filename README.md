@@ -15,7 +15,7 @@ Pizzaro is an online webpage where one can order for pizza at the place of  thei
 |  Enter your name  |   Benedict Sogomi|     |
 | Enter your Email Address  | sogomib@gmail.com |   |
 | Enter your message or comment   |      |     |
-| Press Submit|     |we received your message. Thank you for reaching out to us.|
+| Press Submit|     |Thank you, for contacting us.|
 # Technologies used
 * HTML
 * CSS
