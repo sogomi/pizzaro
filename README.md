@@ -24,5 +24,7 @@ Pizzaro is an online webpage where one can order for pizza at the place of  thei
 * Bootsrap
 # Support and Contact Details
 For more inquiries and information contact me on my email:sogomib@gmail.com
+# Live Link
+https://sogomi.github.io/pizzaro/
 # Licence
 MIT Licence Copyright (C) [2020] [Pizzar]
